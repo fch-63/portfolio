@@ -1,0 +1,269 @@
+
+{
+  "Common": {
+    "language": "Français"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "expertise": "Expertise",
+    "projects": "Projets",
+    "experience": "Parcours",
+    "contact": "Contact",
+    "mainAriaLabel": "Navigation principale",
+    "mobileAriaLabel": "Navigation mobile",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "Profile": {
+    "highlights": {
+      "modernizedApplications": "applications refondues",
+      "monitoredApplications": "applications suivies",
+      "mentoredDevelopers": "développeurs accompagnés"
+    }
+  },
+  "Hero": {
+    "role": "Tech Lead · Architecture & IA",
+    "tagline": "Concevoir. Moderniser. Transmettre.",
+    "description": "Tech Lead spécialisé dans la conception d'applications maintenables, la modernisation des architectures logicielles et l'exploration des usages de l'intelligence artificielle dans le développement.",
+    "projectsButton": "Découvrir mes projets",
+    "cvButton": "Télécharger mon CV",
+    "hexagonalArchitecture": "Architecture hexagonale",
+    "ai": "IA / LLM"
+  },
+  "Highlights": {
+    "modernizedApplications": "Applications refondues",
+    "monitoredApplications": "Applications suivies",
+    "mentoredDevelopers": "Développeurs accompagnés",
+    "sectionLabel": "Mon expérience en chiffres"
+  },
+  "Expertise": {
+    "eyebrow": "Mes domaines d'expertise",
+    "title": "Une expertise au service des projets",
+    "description": "De la conception technique à l'accompagnement des équipes, j'interviens sur les enjeux de qualité, de modernisation et d'évolution des applications.",
+    "items": {
+      "architecture": {
+        "title": "Architecture logicielle",
+        "description": "Conception de systèmes modulaires et testables, avec une approche centrée sur les besoins métier."
+      },
+      "development": {
+        "title": "Développement Multi-Stack",
+        "description": "Développement et modernisation d'applications web, côté backend et frontend."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Industrialisation des déploiements et modernisation des environnements applicatifs."
+      },
+      "ai": {
+        "title": "Intelligence artificielle",
+        "description": "Exploration des agents IA pour l'analyse de projets, les migrations et la modernisation logicielle."
+      },
+      "leadership": {
+        "title": "Leadership technique",
+        "description": "Accompagnement des développeurs et contribution aux décisions d'architecture et de qualité."
+      },
+      "quality": {
+        "title": "Qualité & sécurité",
+        "description": "Amélioration de la maintenabilité, réduction de la dette technique et traitement des vulnérabilités."
+      }
+    }
+  },
+  "Experience": {
+    "eyebrow": "Mon parcours",
+    "title": "Expérience professionnelle",
+    "description": "Un parcours construit autour du développement, de l'architecture logicielle et de l'accompagnement des équipes.",
+    "items": {
+      "harvest-tech-lead": {
+        "role": "Technical Leader",
+        "period": "Jan. 2025 – Aujourd'hui",
+        "description": [
+          "Refonte d'une dizaine d'applications en architecture hexagonale.",
+          "Accompagnement technique de 5 développeurs.",
+          "Réduction de la dette technique et correction des CVE.",
+          "Création d'un dashboard de suivi des déploiements de plus de 500 applications.",
+          "Exploration d'agents IA pour l'analyse de projets, la migration de dépôts et la modernisation de Spring/jQuery vers Quarkus/Angular."
+        ]
+      },
+      "harvest-engineer": {
+        "role": "Ingénieur développement",
+        "period": "Avr. 2021 – Déc. 2024",
+        "description": [
+          "Développement d'applications Java / Angular.",
+          "Refactoring pour améliorer la maintenabilité.",
+          "CI/CD avec GitLab et ArgoCD.",
+          "Coordination avec les équipes PO, QA et Ops."
+        ]
+      },
+      "harvest-developer": {
+        "role": "Développeur web",
+        "period": "Oct. 2015 – Avr. 2021",
+        "description": [
+          "Évolution et maintenance d'applications web.",
+          "Modernisation des socles applicatifs."
+        ]
+      },
+      "harvest-internship": {
+        "role": "Développeur web",
+        "period": "Avr. – Sept. 2015",
+        "description": [
+          "Stage de fin d'études en développement web."
+        ]
+      },
+      "dgfip-developer": {
+        "role": "Développeur PHP / J2EE",
+        "period": "2012 – 2013",
+        "description": [
+          "Conception d'un programme à usage national pour faciliter les intranets des équipes."
+        ]
+      }
+    }
+  },
+  "Projects": {
+    "eyebrow": "Projets sélectionnés",
+    "title": "De la conception à la réalisation",
+    "description": "Une sélection de réalisations illustrant mon approche de l'architecture, de la modernisation et du développement logiciel.",
+    "visibility": {
+      "personal": "Personnel",
+      "professional": "Professionnel"
+    },
+    "viewCaseStudy": "Voir l'étude de cas",
+    "viewCaseStudyAriaLabel": "Voir l'étude de cas : {title}",
+    "items": {
+      "hexagonal-modernization": {
+        "title": "Modernisation d'applications",
+        "category": "Architecture logicielle",
+        "description": "Modernisation progressive d'applications vers une architecture hexagonale.",
+        "caseStudy": {
+          "problem": [
+            "Faire évoluer des applications historiques vers une architecture plus modulaire et maintenable.",
+            "Accompagner cette modernisation tout en maintenant les applications existantes."
+          ],
+          "decisions": [
+            "Séparer les responsabilités frontend et backend.",
+            "Adopter les principes de l'architecture hexagonale pour découpler le cœur applicatif des dépendances techniques.",
+            "Privilégier une modernisation progressive."
+          ],
+          "tradeoffs": [
+            "Assumer temporairement la coexistence de l'architecture historique et de la nouvelle architecture.",
+            "Répartir les efforts entre maintenance de l'existant et modernisation."
+          ],
+          "results": [
+            "Contribution à la modernisation d'un ensemble d'applications.",
+            "Mise en œuvre d'une architecture favorisant la modularité et l'extensibilité."
+          ]
+        }
+      },
+      "deployment-dashboard": {
+        "title": "Suivi des déploiements applicatifs",
+        "category": "Industrialisation",
+        "description": "Conception d'un outil facilitant le suivi des déploiements applicatifs.",
+        "caseStudy": {
+          "problem": [
+            "Faciliter le suivi des déploiements d'un parc applicatif important."
+          ],
+          "decisions": [
+            "Contribuer à la mise en place d'un tableau de bord dédié au suivi des déploiements."
+          ],
+          "tradeoffs": [],
+          "results": [
+            "Réalisation d'un outil de suivi des déploiements à l'échelle d'un parc applicatif."
+          ]
+        }
+      },
+      "ai-modernization": {
+        "title": "Agents IA et modernisation logicielle",
+        "category": "Intelligence artificielle",
+        "description": "Exploration de l'apport des agents IA à la modernisation d'applications.",
+        "caseStudy": {
+          "problem": [
+            "Explorer les possibilités offertes par les agents IA dans les activités de modernisation logicielle."
+          ],
+          "decisions": [
+            "Expérimenter l'utilisation d'agents IA pour assister l'analyse et l'évolution d'applications.",
+            "Étudier leur apport potentiel aux démarches de migration technologique."
+          ],
+          "tradeoffs": [],
+          "results": [
+            "Travaux exploratoires autour de l'utilisation d'agents IA dans le développement logiciel."
+          ]
+        }
+      },
+      "portfolio": {
+        "title": "Portfolio professionnel",
+        "category": "Projet personnel · En cours",
+        "description": "Développement d'un portfolio avec Next.js, React et TypeScript.",
+        "caseStudy": {
+          "problem": [
+            "Présenter mon parcours et mes réalisations techniques dans un portfolio professionnel."
+          ],
+          "decisions": [
+            "Utilisation de Next.js, React et TypeScript.",
+            "Séparation des données et des composants de présentation.",
+            "Utilisation de Tailwind CSS pour une interface responsive."
+          ],
+          "tradeoffs": [
+            "Apprentissage de React et de Next.js en complément de mon expérience Angular."
+          ],
+          "results": [
+            "Portfolio en cours de développement avec des pages de réalisations dynamiques."
+          ]
+        }
+      }
+    },
+    "detail": {
+      "back": "Retour aux projets",
+      "otherProjects": "Découvrir les autres projets",
+      "personal": "Projet personnel",
+      "professional": "Projet professionnel",
+      "notFound": "Projet introuvable",
+      "sections": {
+        "problem": "Contexte et problématique",
+        "decisions": "Choix techniques",
+        "tradeoffs": "Compromis et arbitrages",
+        "results": "Résultats et enseignements"
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Prenons contact",
+    "title": "Échangeons sur vos projets.",
+    "description": "Architecture logicielle, modernisation, leadership technique ou intelligence artificielle : je suis toujours intéressé par des échanges autour de nouveaux défis et de belles collaborations.",
+    "emailButton": "M'envoyer un e-mail",
+    "linkedinButton": "LinkedIn"
+  },
+  "Skills": {
+    "java": "Java",
+    "springBoot": "Spring Boot",
+    "angular": "Angular",
+    "react": "React",
+    "nextjs": "Next.js",
+    "typescript": "TypeScript",
+    "tailwind": "Tailwind CSS",
+    "hexagonalArchitecture": "Architecture hexagonale",
+    "ddd": "DDD",
+    "apiFirst": "API-first",
+    "microservices": "Microservices",
+    "kubernetes": "Kubernetes",
+    "rancher": "Rancher",
+    "docker": "Docker",
+    "argoCd": "ArgoCD",
+    "gitlabCi": "GitLab CI/CD",
+    "llm": "LLM",
+    "rag": "RAG",
+    "mcp": "MCP",
+    "aiAgents": "Agents IA",
+    "mentoring": "Mentorat",
+    "technicalDecisions": "Choix techniques",
+    "collaboration": "Collaboration",
+    "cleanCode": "Clean Code",
+    "testing": "Tests",
+    "refactoring": "Refactoring",
+    "cve": "CVE",
+    "deploymentMonitoring": "Suivi applicatif",
+    "industrialization": "Industrialisation",
+    "modernization": "Modernisation",
+    "javaSpring": "Java / Spring",
+    "ai": "IA"
+  }
+}

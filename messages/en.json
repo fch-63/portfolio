@@ -1,0 +1,269 @@
+
+{
+  "Common": {
+    "language": "English"
+  },
+  "Navigation": {
+    "home": "Home",
+    "expertise": "Expertise",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "mainAriaLabel": "Main navigation",
+    "mobileAriaLabel": "Mobile navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "Profile": {
+    "highlights": {
+      "modernizedApplications": "applications modernized",
+      "monitoredApplications": "applications monitored",
+      "mentoredDevelopers": "developers mentored"
+    }
+  },
+  "Hero": {
+    "role": "Tech Lead · Software Architecture & AI",
+    "tagline": "Design. Modernize. Empower.",
+    "description": "Tech Lead specializing in designing maintainable applications, modernizing software architectures, and exploring how artificial intelligence can enhance software development.",
+    "projectsButton": "Explore my projects",
+    "cvButton": "Download my resume",
+    "hexagonalArchitecture": "Hexagonal Architecture",
+    "ai": "AI / LLM"
+  },
+  "Highlights": {
+    "modernizedApplications": "Applications modernized",
+    "monitoredApplications": "Applications monitored",
+    "mentoredDevelopers": "Developers mentored",
+    "sectionLabel": "My experience in numbers"
+  },
+  "Expertise": {
+    "eyebrow": "My areas of expertise",
+    "title": "Expertise that drives projects forward",
+    "description": "From technical design to team mentoring, I help address software quality, modernization, and application evolution challenges.",
+    "items": {
+      "architecture": {
+        "title": "Software Architecture",
+        "description": "Designing modular and testable systems with a strong focus on business requirements."
+      },
+      "development": {
+        "title": "Full-Stack Development",
+        "description": "Developing and modernizing web applications across backend and frontend technologies."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "description": "Streamlining deployments and modernizing application environments."
+      },
+      "ai": {
+        "title": "Artificial Intelligence",
+        "description": "Exploring AI agents for project analysis, migrations, and software modernization."
+      },
+      "leadership": {
+        "title": "Technical Leadership",
+        "description": "Mentoring developers and contributing to architectural decisions and software quality."
+      },
+      "quality": {
+        "title": "Quality & Security",
+        "description": "Improving maintainability, reducing technical debt, and addressing security vulnerabilities."
+      }
+    }
+  },
+  "Experience": {
+    "eyebrow": "My journey",
+    "title": "Professional experience",
+    "description": "A career built around software development, software architecture, and supporting development teams.",
+    "items": {
+      "harvest-tech-lead": {
+        "role": "Technical Lead",
+        "period": "Jan 2025 – Present",
+        "description": [
+          "Modernized approximately ten applications using hexagonal architecture.",
+          "Provided technical guidance to a team of five developers.",
+          "Reduced technical debt and addressed security vulnerabilities (CVEs).",
+          "Built a dashboard to monitor deployments across more than 500 applications.",
+          "Explored AI agents for project analysis, repository migration, and modernization from Spring/jQuery to Quarkus/Angular."
+        ]
+      },
+      "harvest-engineer": {
+        "role": "Software Engineer",
+        "period": "Apr 2021 – Dec 2024",
+        "description": [
+          "Developed Java and Angular applications.",
+          "Refactored applications to improve maintainability.",
+          "Implemented CI/CD workflows with GitLab and ArgoCD.",
+          "Coordinated with Product Owners, QA, and Operations teams."
+        ]
+      },
+      "harvest-developer": {
+        "role": "Web Developer",
+        "period": "Oct 2015 – Apr 2021",
+        "description": [
+          "Maintained and enhanced web applications.",
+          "Modernized application foundations and technical stacks."
+        ]
+      },
+      "harvest-internship": {
+        "role": "Web Developer",
+        "period": "Apr – Sep 2015",
+        "description": [
+          "Completed a final-year internship in web development."
+        ]
+      },
+      "dgfip-developer": {
+        "role": "PHP / J2EE Developer",
+        "period": "2012 – 2013",
+        "description": [
+          "Designed a nationwide tool to simplify intranet management for internal teams."
+        ]
+      }
+    }
+  },
+  "Projects": {
+    "eyebrow": "Selected projects",
+    "title": "From design to delivery",
+    "description": "A selection of projects showcasing my approach to software architecture, modernization, and development.",
+    "visibility": {
+      "personal": "Personal",
+      "professional": "Professional"
+    },
+    "viewCaseStudy": "View case study",
+    "viewCaseStudyAriaLabel": "View case study: {title}",
+    "items": {
+      "hexagonal-modernization": {
+        "title": "Application Modernization",
+        "category": "Software Architecture",
+        "description": "Progressively modernizing applications toward a hexagonal architecture.",
+        "caseStudy": {
+          "problem": [
+            "Evolve legacy applications toward a more modular and maintainable architecture.",
+            "Carry out this modernization while continuing to maintain existing applications."
+          ],
+          "decisions": [
+            "Separate frontend and backend responsibilities.",
+            "Apply hexagonal architecture principles to decouple the application core from technical dependencies.",
+            "Favor a gradual modernization approach."
+          ],
+          "tradeoffs": [
+            "Temporarily maintain both the legacy and new architectures.",
+            "Balance efforts between maintaining existing systems and modernizing them."
+          ],
+          "results": [
+            "Contributed to the modernization of a set of applications.",
+            "Implemented an architecture designed to improve modularity and extensibility."
+          ]
+        }
+      },
+      "deployment-dashboard": {
+        "title": "Application Deployment Monitoring",
+        "category": "Deployment Automation",
+        "description": "Designing a tool to simplify application deployment monitoring.",
+        "caseStudy": {
+          "problem": [
+            "Simplify deployment monitoring across a large application portfolio."
+          ],
+          "decisions": [
+            "Contribute to the implementation of a dedicated deployment monitoring dashboard."
+          ],
+          "tradeoffs": [],
+          "results": [
+            "Delivered a tool for monitoring deployments across an application portfolio."
+          ]
+        }
+      },
+      "ai-modernization": {
+        "title": "AI Agents and Software Modernization",
+        "category": "Artificial Intelligence",
+        "description": "Exploring how AI agents can support application modernization.",
+        "caseStudy": {
+          "problem": [
+            "Explore the possibilities offered by AI agents in software modernization activities."
+          ],
+          "decisions": [
+            "Experiment with AI agents to support application analysis and evolution.",
+            "Investigate their potential contribution to technology migration initiatives."
+          ],
+          "tradeoffs": [],
+          "results": [
+            "Exploratory work on the use of AI agents in software development."
+          ]
+        }
+      },
+      "portfolio": {
+        "title": "Professional Portfolio",
+        "category": "Personal Project · In Progress",
+        "description": "Building a professional portfolio with Next.js, React, and TypeScript.",
+        "caseStudy": {
+          "problem": [
+            "Present my professional background and technical achievements through a professional portfolio."
+          ],
+          "decisions": [
+            "Use Next.js, React, and TypeScript.",
+            "Separate application data from presentation components.",
+            "Use Tailwind CSS to build a responsive interface."
+          ],
+          "tradeoffs": [
+            "Learn React and Next.js to complement my Angular experience."
+          ],
+          "results": [
+            "A portfolio under development, featuring dynamic project detail pages."
+          ]
+        }
+      }
+    },
+    "detail": {
+      "back": "Back to projects",
+      "otherProjects": "Explore other projects",
+      "personal": "Personal project",
+      "professional": "Professional project",
+      "notFound": "Project not found",
+      "sections": {
+        "problem": "Context and challenges",
+        "decisions": "Technical decisions",
+        "tradeoffs": "Trade-offs",
+        "results": "Results and lessons learned"
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Let's connect",
+    "title": "Let's discuss your projects.",
+    "description": "Software architecture, modernization, technical leadership, or artificial intelligence: I'm always interested in discussing new challenges and meaningful collaborations.",
+    "emailButton": "Send me an email",
+    "linkedinButton": "LinkedIn"
+  },
+  "Skills": {
+    "java": "Java",
+    "springBoot": "Spring Boot",
+    "angular": "Angular",
+    "react": "React",
+    "nextjs": "Next.js",
+    "typescript": "TypeScript",
+    "tailwind": "Tailwind CSS",
+    "hexagonalArchitecture": "Hexagonal Architecture",
+    "ddd": "DDD",
+    "apiFirst": "API-first",
+    "microservices": "Microservices",
+    "kubernetes": "Kubernetes",
+    "rancher": "Rancher",
+    "docker": "Docker",
+    "argoCd": "ArgoCD",
+    "gitlabCi": "GitLab CI/CD",
+    "llm": "LLM",
+    "rag": "RAG",
+    "mcp": "MCP",
+    "aiAgents": "AI Agents",
+    "mentoring": "Mentoring",
+    "technicalDecisions": "Technical Decisions",
+    "collaboration": "Collaboration",
+    "cleanCode": "Clean Code",
+    "testing": "Testing",
+    "refactoring": "Refactoring",
+    "cve": "CVEs",
+    "deploymentMonitoring": "Application Monitoring",
+    "industrialization": "Deployment Automation",
+    "modernization": "Modernization",
+    "javaSpring": "Java / Spring",
+    "ai": "IA"
+  }
+}
