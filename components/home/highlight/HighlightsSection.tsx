@@ -9,7 +9,7 @@ export function HighlightsSection() {
     return (
         <section
             aria-label={t("sectionLabel")}
-            className="px-6 pb-20 md:pb-28"
+            className="px-6"
         >
             <div className="mx-auto grid max-w-6xl gap-4 sm:grid-cols-3">
                 {highlights.map((highlight) => (

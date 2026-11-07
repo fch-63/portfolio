@@ -12,7 +12,7 @@ export function ExperienceSection() {
         <section
             id="experience"
             aria-labelledby="experience-title"
-            className="px-6 py-20 md:py-28"
+            className="px-6 pb-16 md:pb-20"
         >
             <div className="mx-auto max-w-6xl">
                 <div className="mb-12 max-w-2xl">

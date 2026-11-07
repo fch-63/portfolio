@@ -51,7 +51,7 @@ export function Footer() {
                     </nav>
                 </div>
 
-                <div className="mt-10 flex flex-col gap-3 border-t border-white/10 pt-6 text-sm text-zinc-500 md:flex-row md:items-center md:justify-between">
+                <div className="mt-5 flex flex-col gap-3 border-t border-white/10 pt-6 text-sm text-zinc-500 md:flex-row md:items-center md:justify-between">
                     <p>
                         {t("copyright", {
                             year: siteConfig.copyrightYear,

@@ -11,7 +11,7 @@ export function ExpertiseSection() {
     return (
         <section
             id="expertise"
-            className="px-6 py-20 md:py-28"
+            className="px-6 py-16 md:py-20"
             aria-labelledby="expertise-title"
         >
             <div className="mx-auto max-w-6xl">

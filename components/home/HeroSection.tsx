@@ -13,7 +13,7 @@ export function HeroSection() {
     return (
         <section
             id="home"
-            className="relative overflow-hidden px-6 py-20 md:py-28"
+            className="relative overflow-hidden px-6 py-16 md:py-20"
         >
             <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:gap-16">
                 <div className="order-2 lg:order-1">

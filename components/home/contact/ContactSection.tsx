@@ -14,7 +14,7 @@ export function ContactSection() {
         <section
             id="contact"
             aria-labelledby="contact-title"
-            className="px-6 py-20 md:py-28"
+            className="px-6 py-16 md:py-20"
         >
             <div className="mx-auto max-w-6xl">
                 <div className="relative overflow-hidden rounded-3xl border border-border bg-surface px-6 py-16 text-center md:px-12 md:py-20">
