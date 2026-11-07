@@ -1,5 +1,3 @@
-import { useTranslations } from "next-intl";
-
 type DownloadCvLinkProps = {
     className?: string;
     label: string;
@@ -11,8 +9,6 @@ const CV_PATH = "/cv/Fabrice_Chamaret_CV.pdf";
 export function DownloadCvLink({
                                    className = "", label
                                }: DownloadCvLinkProps) {
-
-    const t = useTranslations("Hero");
 
     return (
         <a

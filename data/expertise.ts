@@ -10,27 +10,26 @@ export const expertises: Expertise[] = [
     {
         id: "development",
         skills: ["java", "springBoot", "angular", "typescript"],
-        icon: "architecture",
+        icon: "development",
     },
     {
         id: "cloud",
         skills: ["kubernetes", "rancher", "docker", "argoCd", "gitlabCi"],
-        icon: "architecture",
+        icon: "cloud",
     },
     {
         id: "ai",
-        skills: [
-            "llm", "rag", "mcp", "aiAgents"],
-        icon: "architecture",
+        skills: ["llm", "rag", "mcp", "aiAgents"],
+        icon: "ai",
     },
     {
         id: "leadership",
         skills: ["mentoring", "technicalDecisions", "collaboration"],
-        icon: "architecture",
+        icon: "leadership",
     },
     {
         id: "quality",
         skills: ["cleanCode", "testing", "refactoring", "cve"],
-        icon: "architecture",
+        icon: "shield",
     },
 ] as const satisfies Expertise[];

@@ -42,7 +42,7 @@ export async function generateMetadata({
     }
 
     return {
-        title: `${t(`items.${project.id}.title`)} | Fabrice Chamaret`,
+        title: `${t(`items.${project.id}.title`)}`,
         description: t(`items.${project.id}.description`),
     };
 }

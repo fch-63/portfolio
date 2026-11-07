@@ -30,9 +30,13 @@ export function ExperienceCard({
                 {company}
             </p>
 
-            <p className="mt-4 leading-7 text-muted">
-                {description}
-            </p>
+            <ul className="mt-4 list-disc space-y-2 pl-5 text-muted">
+                {description.map((item, index) => (
+                    <li key={index} className="leading-7">
+                        {item}
+                    </li>
+                ))}
+            </ul>
 
             {skills.length > 0 && (
                 <div className="mt-6 flex flex-wrap gap-2">

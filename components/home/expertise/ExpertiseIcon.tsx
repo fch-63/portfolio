@@ -4,14 +4,19 @@ import {
     Code2,
     Network,
     Users,
-    type LucideIcon,
+    type LucideIcon, CodeXml, CloudCog, UsersRound, ShieldCheck,
 } from "lucide-react";
 
 const icons = {
     architecture: Network,
+    code: CodeXml,
+    cloud: CloudCog,
     development: Code2,
+    brain: BrainCircuit,
     leadership: Users,
     ai: BrainCircuit,
+    users: UsersRound,
+    shield: ShieldCheck,
 } satisfies Record<string, LucideIcon>;
 
 export type ExpertiseIconName = keyof typeof icons;

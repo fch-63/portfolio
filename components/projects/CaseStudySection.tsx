@@ -37,20 +37,13 @@ export function CaseStudySection({
                         {title}
                     </h2>
 
-                    <ul className="mt-5 space-y-3 text-muted">
+                    <div className="mt-4 space-y-4">
                         {items.map((item, index) => (
-                            <li
-                                key={`${index}-${item}`}
-                                className="flex items-start gap-3 leading-7"
-                            >
-                <span
-                    aria-hidden="true"
-                    className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
-                />
-                                <span>{item}</span>
-                            </li>
+                            <p key={index} className="leading-7 text-muted">
+                                {item}
+                            </p>
                         ))}
-                    </ul>
+                    </div>
                 </div>
             </div>
         </section>

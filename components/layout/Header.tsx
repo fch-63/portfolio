@@ -18,8 +18,8 @@ export function Header() {
         <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-md">
             <div className="mx-auto flex h-18 max-w-6xl items-center justify-between gap-4 px-6">
                 <BrandLink
-                    surname={siteConfig.surname}
-                    name={siteConfig.name}
+                    surname={siteConfig.firstName}
+                    name={siteConfig.lastName}
                     initials={siteConfig.initials}
                 />
 

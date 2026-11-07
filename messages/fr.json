@@ -1,5 +1,9 @@
 
 {
+  "Metadata": {
+    "title": "Fabrice Chamaret | Tech Lead & Architecte logiciel",
+    "description": "Portfolio de Fabrice Chamaret, Tech Lead spécialisé en architecture logicielle, modernisation d'applications et intelligence artificielle."
+  },
   "Common": {
     "language": "Français"
   },
@@ -232,6 +236,12 @@
     "emailButton": "M'envoyer un e-mail",
     "linkedinButton": "LinkedIn"
   },
+  "Footer": {
+    "role": "Tech Lead · Architecture & IA",
+    "navigationAriaLabel": "Navigation de pied de page",
+    "copyright": "© {year} {name}. Tous droits réservés.",
+    "backToTop": "Retour en haut"
+  },
   "Skills": {
     "java": "Java",
     "springBoot": "Spring Boot",
@@ -264,6 +274,8 @@
     "industrialization": "Industrialisation",
     "modernization": "Modernisation",
     "javaSpring": "Java / Spring",
-    "ai": "IA"
+    "ai": "IA",
+    "php": "PHP",
+    "j2ee": "j2ee"
   }
 }

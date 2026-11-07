@@ -6,6 +6,7 @@ import {useTranslations} from "next-intl";
 export function ExperienceSection() {
 
     const t = useTranslations("Experience");
+    const tSkills = useTranslations("Skills");
 
     return (
         <section
@@ -53,7 +54,7 @@ export function ExperienceSection() {
                                 description={
                                     t.raw(`items.${experience.id}.description`) as string[]
                                 }
-                                skills={experience.skills}
+                                skills={experience.skills.map((skillId) => tSkills(skillId))}
                             />
                         </li>
                     ))}

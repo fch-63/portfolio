@@ -6,6 +6,7 @@ import {useTranslations} from "next-intl";
 export function ProjectSection() {
 
     const t = useTranslations("Projects");
+    const tSkills = useTranslations("Skills");
 
     return (
         <section
@@ -32,12 +33,27 @@ export function ProjectSection() {
                 </div>
 
                 <div className="grid gap-6 md:grid-cols-2">
-                    {projects.map((project) => (
-                        <ProjectCard
-                            key={project.id}
-                            project={project}
-                        />
-                    ))}
+
+                        {projects.map((project) => {
+                            const title = t(`items.${project.id}.title`);
+
+                            return (
+                                <ProjectCard
+                                    key={project.id}
+                                    title={title}
+                                    category={t(`items.${project.id}.category`)}
+                                    description={t(`items.${project.id}.description`)}
+                                    isPersonal={project.visibility === "personal"}
+                                    visibility={t(`visibility.${project.visibility}`)}
+                                    skills={project.skills.map((id) => tSkills(id))}
+                                    href={`/projects/${project.slug}`}
+                                    linkLabel={t("viewCaseStudy")}
+                                    linkAriaLabel={t("viewCaseStudyAriaLabel", {
+                                        title,
+                                    })}
+                                />
+                            );
+                        })}
                 </div>
             </div>
         </section>

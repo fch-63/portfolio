@@ -2,20 +2,29 @@
 import { Link } from "@/i18n/navigation";
 import { ArrowUpRight, Blocks, Laptop } from "lucide-react";
 
-import type { Project } from "@/types/portfolio";
-import {useTranslations} from "next-intl";
-
 type ProjectCardProps = {
-    project: Project;
+    title: string;
+    category: string;
+    description: string;
+    isPersonal: boolean;
+    visibility: string;
+    skills: readonly string[];
+    href: `/projects/${string}`;
+    linkLabel: string;
+    linkAriaLabel: string;
 };
 
-export function ProjectCard({ project }: ProjectCardProps) {
-    const t = useTranslations("Projects");
-    const isPersonal = project.visibility === "personal";
-
-    const title = t(`items.${project.id}.title`);
-    const category = t(`items.${project.id}.category`);
-    const description = t(`items.${project.id}.description`);
+export function ProjectCard({
+                                title,
+                                category,
+                                description,
+                                isPersonal,
+                                visibility,
+                                skills,
+                                href,
+                                linkLabel,
+                                linkAriaLabel,
+                            }: ProjectCardProps) {
 
     return (
         <article className="group flex h-full flex-col rounded-2xl border border-border bg-surface p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-lg">
@@ -32,7 +41,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
                 </div>
 
                 <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted">
-           {t(`visibility.${project.visibility}`)}
+           {visibility}
         </span>
             </div>
 
@@ -50,22 +59,21 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
             <div className="mt-auto pt-6">
                 <div className="mb-6 flex flex-wrap gap-2">
-                    {project.skills.map((technology) => (
+                    {skills.map((skill) => (
                         <span
-                            key={technology}
+                            key={skill}
                             className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted"
                         >
-              {technology}
+              {skill}
             </span>
                     ))}
                 </div>
 
                 <Link
-                    href={`/projects/${project.slug}`}
-                    aria-label={t("viewCaseStudyAriaLabel", { title })}
+                    href={href} aria-label={linkAriaLabel}
                     className="inline-flex items-center gap-2 font-semibold text-accent transition-colors hover:text-foreground"
                 >
-                    {t("viewCaseStudy")}
+                    {linkLabel}
                     <ArrowUpRight
                         size={18}
                         className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"

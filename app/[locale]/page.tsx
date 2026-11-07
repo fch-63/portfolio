@@ -9,15 +9,7 @@ import {HighlightsSection} from "@/components/home/highlight/HighlightsSection";
 
 export const instant = false;
 
-type HomePageProps = {
-    params: Promise<{ locale: string }>;
-};
-
-export default async function HomePage({
-                                           params,
-                                       }: HomePageProps) {
-    const { locale } = await params;
-
+export default async function HomePage() {
     const t = await getTranslations("Common");
 
     return (

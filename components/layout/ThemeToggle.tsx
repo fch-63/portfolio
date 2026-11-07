@@ -1,18 +1,23 @@
-
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import { useTheme } from "next-themes";
+
+const subscribe = () => () => {};
+
+function useIsClient() {
+    return useSyncExternalStore(
+        subscribe,
+        () => true,
+        () => false,
+    );
+}
 
 export function ThemeToggle() {
     const { resolvedTheme, setTheme } = useTheme();
-    const [mounted, setMounted] = useState(false);
+    const isClient = useIsClient();
 
-    useEffect(() => {
-        setMounted(true);
-    }, []);
-
-    if (!mounted) {
+    if (!isClient) {
         return (
             <span
                 aria-hidden="true"
@@ -39,9 +44,9 @@ export function ThemeToggle() {
             }
             className="flex h-10 w-10 items-center justify-center rounded-lg border border-border text-foreground transition hover:bg-surface"
         >
-      <span aria-hidden="true">
-        {isDark ? "☀" : "☾"}
-      </span>
+            <span aria-hidden="true">
+                {isDark ? "☀" : "☾"}
+            </span>
         </button>
     );
 }

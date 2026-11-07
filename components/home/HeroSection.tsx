@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/navigation";
-import {useLocale, useTranslations} from "next-intl";
+import {useTranslations} from "next-intl";
 import {siteConfig} from "@/config/site";
 
 import { ProfilePortrait } from "./ProfilePortrait";
@@ -7,16 +7,8 @@ import { DownloadCvLink } from "@/components/shared/DownloadCvLink";
 import {heroSkills} from "@/config/hero-skills";
 
 export function HeroSection() {
-    const locale = useLocale();
     const t = useTranslations("Hero");
     const tSkills = useTranslations("Skills");
-
-    const skills = [
-        "Java / Spring",
-        "Angular",
-        t("hexagonalArchitecture"),
-        t("ai"),
-    ];
 
     return (
         <section
@@ -30,9 +22,9 @@ export function HeroSection() {
                     </p>
 
                     <h1 className="text-5xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-                        {siteConfig.surname}
+                        {siteConfig.firstName}
                         <span className="block text-accent">
-              {siteConfig.name}.
+              {siteConfig.lastName}.
             </span>
                     </h1>
 
